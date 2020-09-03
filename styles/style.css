@@ -1,45 +1,68 @@
 body {
-    background: yellow;
-    font-family: Roboto;
+    background: rgb(228, 212, 160);
+    font-family: "roboto";
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh
+    min-height: 100vh;
 }
+
+
+
 
 main {
-    background: #red;
-    border-radius: 5px;
+    background: red;
+    font-size: larger;
+    border-radius: 7px; 
     width: 375px;
-    text-align: center;
-}
-
-.top {
-    height: 120px;
-    border-radius: 5px;
-    color: red;
-}
-
-.middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    height: 115px;
-    font-family: cursive;
-    font-size: 3rem;
-}
-
-.bottom {
-    height: 20px;
-    border-radius: 5px;
+    size: 120px;
+    text-align:center
+    
 }
 
 .hello {
-    font-size: 4.5rem;
+    color: #FFE66D;
+    font-size: 4rem;
     line-height: 1;
+    text-align: center;
+    font-family:    'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 40px;
+    letter-spacing: 1.5;
+    vertical-align: center;
 }
 
 .my-name-is {
-    font-size: 2rem;
+    color: #FFE66D;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top {
+    height: 140px;  
+}
+
+.middle {
+    background: #F7FFF7;
+    height: 120px;
+    text-align: center;
+    color: Black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom {
+    height: 30px;
+}
+
+.background-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
 }
